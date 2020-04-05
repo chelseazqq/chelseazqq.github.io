@@ -1,0 +1,42 @@
+body 
+	{
+		background-image:url('./figures/paper.gif');
+		background-color:#cccccc;
+	}
+	#layout-content{
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#header{
+		float:left;
+	}
+	#photo{
+		float:right;
+	}
+	#photo img{
+		width:168px;
+		height:217px;
+	}
+	a:link {text-decoration:none;}
+	a:hover {text-decoration:underline;}
+	table {
+		width:100%;
+		border:0;
+		align:center;
+	}
+	table tr{
+		border-width: 1px;
+	}
+	table td{
+		border: 0px;
+	}
+	td>img{
+		height: 90px;
+		width: 90px;
+		margin-top: 10px;
+	}
+	@media print {
+	     .site-head,.action-bar {
+	       display: none;
+	     }
+   	}
